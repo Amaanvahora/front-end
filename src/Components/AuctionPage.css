@@ -1,0 +1,93 @@
+/* AuctionPage.css */
+
+/* Container for the entire page */
+.auction-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title at the top of the page */
+.auction-page-title {
+    text-align: center;
+    color: #3f51b5;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form container */
+.auction-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form group for each input */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label for form inputs */
+.form-group label {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input fields */
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* Textarea resizing */
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Readonly text input style */
+.form-group input[type="text"]:read-only {
+    background-color: #f8f9fa;
+}
+
+/* Button style */
+.form-group button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Submit button style */
+.submit-button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.submit-button:hover {
+    background-color: #0056b3;
+}
